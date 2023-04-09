@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css\login-page.css">
+        <script defer src="js\profile.js"></script>
+    </head>
+    <body>
+        <div id="profile_text">
+            <h2 style="color: darkblue;"><b>Profile</b></h2>
+        </div>
+        <form id="profile_form">
+            <p style="color: black;">Email : </p><input type="text" name = "email" id="email_blank" class="profile_form" placeholder="email">
+            <br><br>
+            <label for="gender" style="color: purple;">Gender : </label>
+            <select name = "gender" id = "gender">
+                <option value="Choose">Choose a gender</option>
+                <option value="Male">Male</option> 
+                <option value="Female">Female</option>
+            </select>
+            <br><br>
+            <p style="color: black;">Username : </p><input type="text" name = "username" id = "username" readonly>
+            <br><br>
+            <p style="color: black;">Date Of Birth :</p><input type="date" name = "dob" id="dob">
+            <br><br>
+            <p style="color: black;">Age : </p><input type="text" name = "age" id = "age" readonly>
+            <br><br>
+            <input type="submit" value = "Submit" id = "submit_blank">
+        </form>
+
+    </body>
+</html>
